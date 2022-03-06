@@ -13,8 +13,7 @@ class ViewController: UIViewController {
     var bottomPalleteWidth : Double?
     let bottomPalleteHeight : Double = 5
     @IBAction func loginButton(_ sender: Any) {
-//        performSegue(withIdentifier: "HomePageVC", sender: nil)
-//        self.navigationItem.hidesBackButton = true;
+        
     
     }
     @IBOutlet weak var passwordTextField: UITextField!
@@ -54,7 +53,5 @@ class ViewController: UIViewController {
         view.addSubview(bottomLightBluePallete)
         view.addSubview(passwordTextField)
     }
-
-
 }
 

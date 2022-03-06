@@ -15,6 +15,8 @@
 		1ED6FDF727D2360200990D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED6FDF527D2360200990D85 /* LaunchScreen.storyboard */; };
 		1ED6FE0227D23A3B00990D85 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6FE0127D23A3B00990D85 /* HomeViewController.swift */; };
 		1ED6FE0527D23D5600990D85 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6FE0427D23D5600990D85 /* LoginViewController.swift */; };
+		1ED6FE1427D4F66300990D85 /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6FE1327D4F66300990D85 /* NetworkImage.swift */; };
+		1ED6FE1927D4FA9100990D85 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6FE1827D4FA9100990D85 /* Urls.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		1ED6FDF827D2360200990D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ED6FE0127D23A3B00990D85 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1ED6FE0427D23D5600990D85 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1ED6FE1327D4F66300990D85 /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
+		1ED6FE1827D4FA9100990D85 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		1ED6FDE927D2360100990D85 /* ecommerce */ = {
 			isa = PBXGroup;
 			children = (
+				1ED6FE1727D4FA8700990D85 /* Constans */,
+				1ED6FE1227D4F65000990D85 /* extensions */,
 				1ED6FE0327D23D3C00990D85 /* LoginView */,
 				1ED6FDFE27D2363B00990D85 /* HomeView */,
 				1ED6FDEA27D2360100990D85 /* AppDelegate.swift */,
@@ -87,6 +93,22 @@
 				1ED6FE0427D23D5600990D85 /* LoginViewController.swift */,
 			);
 			path = LoginView;
+			sourceTree = "<group>";
+		};
+		1ED6FE1227D4F65000990D85 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1ED6FE1327D4F66300990D85 /* NetworkImage.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		1ED6FE1727D4FA8700990D85 /* Constans */ = {
+			isa = PBXGroup;
+			children = (
+				1ED6FE1827D4FA9100990D85 /* Urls.swift */,
+			);
+			path = Constans;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +185,9 @@
 				1ED6FDEF27D2360100990D85 /* ViewController.swift in Sources */,
 				1ED6FDEB27D2360100990D85 /* AppDelegate.swift in Sources */,
 				1ED6FDED27D2360100990D85 /* SceneDelegate.swift in Sources */,
+				1ED6FE1927D4FA9100990D85 /* Urls.swift in Sources */,
 				1ED6FE0527D23D5600990D85 /* LoginViewController.swift in Sources */,
+				1ED6FE1427D4F66300990D85 /* NetworkImage.swift in Sources */,
 				1ED6FE0227D23A3B00990D85 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
